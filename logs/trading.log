@@ -1,0 +1,43 @@
+2026-02-28 12:39:15 | INFO     | risk.position_sizing           | 📐 Position size | NIFTY | LTP=100.00 lot=50 risk=₹1000 → 1 lot(s) (outlay ₹5000)
+2026-02-28 12:39:15 | INFO     | risk.position_sizing           | 📐 Position size | NIFTY | LTP=10.00 lot=50 risk=₹1000 → 2 lot(s) (outlay ₹1000)
+2026-02-28 12:39:15 | WARNING  | risk.position_sizing           | Invalid option LTP 0.0 for NIFTY, defaulting to 1 lot
+2026-02-28 12:39:15 | INFO     | risk.risk_manager              | 💰 Risk levels for NIFTY CE entry=100.00 SL=70.00 target=160.00
+2026-02-28 12:39:15 | INFO     | risk.risk_manager              | 💰 Risk levels for NIFTY CE entry=10.00 SL=-10.00 target=16.00
+2026-02-28 12:39:15 | INFO     | strategies.breakout            | 🚀 breakout BREAKOUT | NIFTY | LTP=22200.00 PDH=22100.00 (+0.45%) vol_ratio=3.5x conf=0.74
+2026-02-28 12:40:54 | INFO     | storage.database               | ✅ Database initialized: sqlite:///smoke_test.db
+2026-02-28 12:40:54 | INFO     | broker.angel_client            | 📄 PAPER TRADING MODE — No real orders will be placed
+2026-02-28 12:40:54 | INFO     | broker.angel_client            | 📄 Paper client: login simulated
+2026-02-28 12:40:54 | INFO     | strategies.strategy_manager    | ✅ Strategy loaded: trend_following
+2026-02-28 12:40:54 | INFO     | strategies.strategy_manager    | ✅ Strategy loaded: breakout
+2026-02-28 12:40:54 | INFO     | strategies.strategy_manager    | ✅ Strategy loaded: vwap_reversal
+2026-02-28 12:40:54 | INFO     | risk.position_sizing           | 📐 Position size | NIFTY | LTP=80.00 lot=50 risk=₹1000 → 1 lot(s) (outlay ₹4000)
+2026-02-28 12:40:54 | INFO     | risk.risk_manager              | 💰 Risk levels for NIFTY CE entry=100.00 SL=70.00 target=160.00
+2026-02-28 12:40:54 | INFO     | storage.database               | 💾 Trade saved: id=1 symbol=NIFTY28FEB24C22000
+2026-02-28 13:01:15 | INFO     | broker.angel_client            | 📄 PAPER TRADING MODE — No real orders will be placed
+2026-02-28 13:01:15 | INFO     | broker.angel_client            | 📄 Paper client: login simulated
+2026-02-28 13:01:15 | INFO     | strategies.strategy_manager    | ✅ Strategy loaded: trend_following
+2026-02-28 13:01:15 | INFO     | strategies.strategy_manager    | ✅ Strategy loaded: breakout
+2026-02-28 13:01:15 | INFO     | strategies.strategy_manager    | ✅ Strategy loaded: vwap_reversal
+2026-02-28 13:01:15 | INFO     | risk.position_sizing           | 📐 Position size | NIFTY | LTP=80.00 lot=50 risk=₹1000 → 1 lot(s) (outlay ₹4000)
+2026-02-28 13:01:15 | INFO     | risk.risk_manager              | 💰 Risk levels for NIFTY CE entry=100.00 SL=70.00 target=160.00
+2026-02-28 13:01:15 | INFO     | broker.angel_client            | 📄 PAPER ORDER | BUY NIFTY28FEB24C22000 qty=50 price=0 | id=PAPER1001
+2026-02-28 13:01:15 | INFO     | risk.position_sizing           | 📐 Position size | NIFTY | LTP=100.00 lot=50 risk=₹1000 → 1 lot(s) (outlay ₹5000)
+2026-02-28 13:01:15 | INFO     | risk.position_sizing           | 📐 Position size | NIFTY | LTP=10.00 lot=50 risk=₹1000 → 2 lot(s) (outlay ₹1000)
+2026-02-28 13:01:15 | WARNING  | risk.position_sizing           | Invalid option LTP 0.0 for NIFTY, defaulting to 1 lot
+2026-02-28 13:01:15 | INFO     | risk.risk_manager              | 💰 Risk levels for NIFTY CE entry=100.00 SL=70.00 target=160.00
+2026-02-28 13:01:15 | INFO     | risk.risk_manager              | 💰 Risk levels for NIFTY CE entry=10.00 SL=-10.00 target=16.00
+2026-02-28 13:01:15 | INFO     | strategies.breakout            | 🚀 breakout BREAKOUT | NIFTY | LTP=22200.00 PDH=22100.00 (+0.45%) vol_ratio=3.5x conf=0.74
+2026-02-28 13:01:34 | INFO     | broker.angel_client            | 📄 PAPER TRADING MODE — No real orders will be placed
+2026-02-28 13:01:34 | INFO     | broker.angel_client            | 📄 Paper client: login simulated
+2026-02-28 13:01:34 | INFO     | strategies.strategy_manager    | ✅ Strategy loaded: trend_following
+2026-02-28 13:01:34 | INFO     | strategies.strategy_manager    | ✅ Strategy loaded: breakout
+2026-02-28 13:01:34 | INFO     | strategies.strategy_manager    | ✅ Strategy loaded: vwap_reversal
+2026-02-28 13:01:34 | INFO     | risk.position_sizing           | 📐 Position size | NIFTY | LTP=80.00 lot=50 risk=₹1000 → 1 lot(s) (outlay ₹4000)
+2026-02-28 13:01:34 | INFO     | risk.risk_manager              | 💰 Risk levels for NIFTY CE entry=100.00 SL=70.00 target=160.00
+2026-02-28 13:01:34 | INFO     | broker.angel_client            | 📄 PAPER ORDER | BUY NIFTY28FEB24C22000 qty=50 price=0 | id=PAPER1001
+2026-02-28 13:01:34 | INFO     | risk.position_sizing           | 📐 Position size | NIFTY | LTP=100.00 lot=50 risk=₹1000 → 1 lot(s) (outlay ₹5000)
+2026-02-28 13:01:34 | INFO     | risk.position_sizing           | 📐 Position size | NIFTY | LTP=10.00 lot=50 risk=₹1000 → 2 lot(s) (outlay ₹1000)
+2026-02-28 13:01:34 | WARNING  | risk.position_sizing           | Invalid option LTP 0.0 for NIFTY, defaulting to 1 lot
+2026-02-28 13:01:34 | INFO     | risk.risk_manager              | 💰 Risk levels for NIFTY CE entry=100.00 SL=70.00 target=160.00
+2026-02-28 13:01:34 | INFO     | risk.risk_manager              | 💰 Risk levels for NIFTY CE entry=10.00 SL=-10.00 target=16.00
+2026-02-28 13:01:34 | INFO     | strategies.breakout            | 🚀 breakout BREAKOUT | NIFTY | LTP=22200.00 PDH=22100.00 (+0.45%) vol_ratio=3.5x conf=0.74

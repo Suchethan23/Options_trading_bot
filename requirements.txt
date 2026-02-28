@@ -1,0 +1,31 @@
+# Core
+smartapi-python>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+ta>=0.10.2
+scipy>=1.11.0
+websocket-client>=1.6.0
+pyotp>=2.8.0
+requests>=2.31.0
+pytz>=2023.3
+
+# Scheduling
+APScheduler>=3.10.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Config
+python-dotenv>=1.0.0
+
+# Optional: Telegram alerts
+python-telegram-bot>=20.0
+
+# Optional: Dashboard
+fastapi>=0.103.0
+uvicorn>=0.23.0
+plotly>=5.17.0
+
+# Testing
+pytest>=7.4.0
+pytest-mock>=3.11.0
